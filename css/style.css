@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.table {
+	width: 100%;
+	border: 1px solid rgb(255, 255, 255);
+	border-collapse: collapse;
+	text-align: left;
+	height: 70%;
+	font-family: "Big Shoulders", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
+}
+
+.table,
+.table tr,
+.table th,
+.table td {
+	border-collapse: collapse;
+}
+.body tr:nth-child(odd) {
+	background-color: rgb(193, 191, 191);
+}
+
+.head {
+	background-color: black;
+	color: white;
+	height: 9vh;
+	font-size: x-large;
+}
+.mark {
+	text-align: center;
+}
+.body {
+	font-size: larger;
+}
